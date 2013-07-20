@@ -1,2 +1,8 @@
+Summary: Raspberry PI Camera video -> opengles texture
+
 This is a hacky example using the Raspberry PI video camera video on a rotating cube.  It merges hello_videocube and hello_video based on work by OtherCrashOverride and HJ Imbens.
-I haven't used github before so this might break horribly.
+I haven't used github before so this might break horribly.  It draws 200 frames and then quits.
+
+Issues:
+Frames are not synchronized between capture and display.  Sometimes it looks like the image is updated while the scene is rendering.
+The shutdown code works but may not be fully correct.  See the note by ilclient_state_transition(list, OMX_StateLoaded);
