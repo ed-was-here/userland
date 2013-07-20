@@ -1,0 +1,2 @@
+This is a hacky example using the Raspberry PI video camera video on a rotating cube.  It merges hello_videocube and hello_video based on work by OtherCrashOverride and HJ Imbens.
+I haven't used github before so this might break horribly.
